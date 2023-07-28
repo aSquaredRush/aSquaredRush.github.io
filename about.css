@@ -1,0 +1,143 @@
+@import url(//fonts.googleapis.com/css?family=Tajawal);
+
+
+nav {
+    margin: 0px auto 0;
+    position: absolute;
+    left: 70vw;
+    width: 28.7vw;
+    height: 7vh;
+    background-color: #b3b3b3;
+    border-radius: 8px;
+    font-size: 0;
+    top: 0;
+}
+
+nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+
+nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .2s ease 0s;
+    border-radius: 8px;
+}
+
+a:nth-child(1) {
+    width: 8vw;
+}
+
+a:nth-child(2) {
+    width: 10vw;
+}
+
+a:nth-child(3) {
+    width: 10vw;
+}
+
+
+nav .nav-map, a:nth-child(1):hover ~ .animation {
+    left: 0vw;
+    width: 8vw;
+    background-color: #1ABc9c;
+}
+
+
+nav .nav-about, a:nth-child(2):hover ~ .animation {
+    left: 8vw;
+    width: 10vw;
+    background-color: #1ABc9c;
+}
+
+
+nav .nav-sources, a:nth-child(3):hover ~ .animation {
+    left: 18vw;
+    width: 10.7vw;
+    background-color: #1abc9c;
+}
+
+
+
+
+#title-box {
+    width: 30vw;
+    height: 10vh;
+    right: .1vw;
+    bottom: 5vh;
+
+
+    padding-left: .6vw;
+    padding-top: 4vh;
+    border-radius: 8px;
+    position: relative;
+
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: normal;
+
+}
+
+body{
+    margin: 0;
+    font-family: 'Tajawal';
+    background-color: white;
+    /*background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuZGV2L3N2Z2pzIiB2aWV3Qm94PSIwIDAgNzAwIDcwMCIgd2lkdGg9IjcwMCIgaGVpZ2h0PSI3MDAiIG9wYWNpdHk9IjAuNDQiPjxkZWZzPjxmaWx0ZXIgaWQ9Im5ubm9pc2UtZmlsdGVyIiB4PSItMjAlIiB5PSItMjAlIiB3aWR0aD0iMTQwJSIgaGVpZ2h0PSIxNDAlIiBmaWx0ZXJVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHByaW1pdGl2ZVVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJsaW5lYXJSR0IiPgogICAgPGZlVHVyYnVsZW5jZSB0eXBlPSJmcmFjdGFsTm9pc2UiIGJhc2VGcmVxdWVuY3k9IjAuMiIgbnVtT2N0YXZlcz0iNCIgc2VlZD0iMTUiIHN0aXRjaFRpbGVzPSJzdGl0Y2giIHg9IjAlIiB5PSIwJSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgcmVzdWx0PSJ0dXJidWxlbmNlIj48L2ZlVHVyYnVsZW5jZT4KICAgIDxmZVNwZWN1bGFyTGlnaHRpbmcgc3VyZmFjZVNjYWxlPSIxIiBzcGVjdWxhckNvbnN0YW50PSIyIiBzcGVjdWxhckV4cG9uZW50PSIyMCIgbGlnaHRpbmctY29sb3I9IiNjMzI5MDAiIHg9IjAlIiB5PSIwJSIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgaW49InR1cmJ1bGVuY2UiIHJlc3VsdD0ic3BlY3VsYXJMaWdodGluZyI+CiAgICAgICAgICAgIDxmZURpc3RhbnRMaWdodCBhemltdXRoPSIzIiBlbGV2YXRpb249IjM4Ij48L2ZlRGlzdGFudExpZ2h0PgogICAgPC9mZVNwZWN1bGFyTGlnaHRpbmc+CiAgPGZlQ29sb3JNYXRyaXggdHlwZT0ic2F0dXJhdGUiIHZhbHVlcz0iMCIgeD0iMCUiIHk9IjAlIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBpbj0ic3BlY3VsYXJMaWdodGluZyIgcmVzdWx0PSJjb2xvcm1hdHJpeCI+PC9mZUNvbG9yTWF0cml4Pgo8L2ZpbHRlcj48L2RlZnM+PHJlY3Qgd2lkdGg9IjcwMCIgaGVpZ2h0PSI3MDAiIGZpbGw9IndoaXRlIj48L3JlY3Q+PHJlY3Qgd2lkdGg9IjcwMCIgaGVpZ2h0PSI3MDAiIGZpbGw9IiNjMzI5MDAiIGZpbHRlcj0idXJsKCNubm5vaXNlLWZpbHRlcikiPjwvcmVjdD48L3N2Zz4=");*/
+    color:#0e2d68;
+}
+
+
+
+
+#story-main {
+    /*display: grid;*/
+    /*grid-template-columns: 5vw 50vw 5vw;*/
+    /*grid-template-rows: 31vh 40vh 13vh 29vh 29vh 29vh;*/
+    /*grid-template-areas: ". header header ." ". main main ." ". main main ." ". main main ." ". main main ." ". main main .";*/
+    /*justify-items: center;*/
+    /*justify-content: space-evenly;*/
+}
+
+#einstein-quote{
+    font-weight: bold;
+    /*grid-column-start: 2;*/
+    /*grid-column-end: 3;*/
+    /*grid-row-start: 1;*/
+    /*grid-row-end: 2;*/
+    white-space: pre-line;
+    text-align: center;
+    background: #1abc9c;
+    background: linear-gradient(to right, #1abc9c 22%, #0e2d68 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#what-is-ll-flex{
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 10vw;
+}
+
+
+.flex-text{
+    display:flex;
+    font-size: x-large;
+    font-weight: lighter;
+    flex-wrap: wrap;
+    margin:5vw;
+    column-gap: 30vw;
+}
+
